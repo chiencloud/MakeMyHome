@@ -1,0 +1,37 @@
+
+.nextArrowMain, .prevArrowMain{
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+    span{
+        background-color: #fff;
+        height: 35px;
+        width: 35px;
+        border-radius: 18px;
+        text-align: center;
+        line-height: 35px;
+        opacity: 0.6;
+
+        i{
+            font-size: 17px;
+        }
+    }
+    
+    :hover{
+        opacity: 1
+    }
+}
+
+.nextArrowMain{
+    right: 0px;
+}
+
+.prevArrowMain{
+    left: 0px;
+}

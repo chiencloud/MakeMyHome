@@ -1,0 +1,37 @@
+[
+    {
+        "name": "DALAT Concept",
+        "image": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651927910/MakeMyHome/Concept/dalat_fjckpb.webp",
+        "link": "concepts/dalat"
+    },
+    {
+        "name": "JOHY Concept",
+        "image": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651927913/MakeMyHome/Concept/johy_xgcbwn.webp",
+        "link": "concepts/johy"
+    },
+    {
+        "name": "HANO Concept",
+        "image": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651927906/MakeMyHome/Concept/hano_krqhp6.webp",
+        "link": "concepts/hano"
+    },
+    {
+        "name": "SAGO Concept",
+        "image": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651927912/MakeMyHome/Concept/sago_kyb0ax.webp",
+        "link": "concepts/sago"
+    },
+    {
+        "name": "QUADA Concept",
+        "image": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651927905/MakeMyHome/Concept/quada_rlktpd.webp",
+        "link": "concepts/quada"
+    },
+    {
+        "name": "EZ Concept",
+        "image": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651927915/MakeMyHome/Concept/ez_da2nvm.webp",
+        "link": "concepts/ez"
+    },
+    {
+        "name": "EZ TINY Concept",
+        "image": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651927905/MakeMyHome/Concept/eztiny_ummha8.webp",
+        "link": "concepts/ez-tiny"
+    }
+]

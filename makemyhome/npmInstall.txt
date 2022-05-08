@@ -1,0 +1,24 @@
+1. create react app
+
+2. Install customize-cra 
+    - npm i customize-cra react-app-rewired -D
+    - add file config-overrides.js ( docs https://www.npmjs.com/package/react-app-rewired )
+    - update "react-script" -> "react-app-rewired" trong package.json/script
+
+3. Install babel plugin module resoler
+    - npm install --save-dev babel-plugin-module-resolver
+    - add file .babelrc, jsconfig.json ( docs https://www.npmjs.com/package/babel-plugin-module-resolver)
+    - add useBabelRc in file config-overrides.js 
+
+4. Install sass
+    - npm install --save-dev sass
+
+5. Install router
+    - npm i react-router-dom
+    - Config 
+        - components
+            -GlobalStyles (Config scss default for website)
+            -Layouts
+        - pages
+        - routers
+    

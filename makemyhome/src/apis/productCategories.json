@@ -1,0 +1,80 @@
+[
+    {
+        "nameVi": "bàn",
+        "nameEn": "tables",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855112/MakeMyHome/Home/ban_vv4tcc.webp",
+        "link": "/products/tables"
+    },
+    {
+        "nameVi": "sofa",
+        "nameEn": "sofas",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855114/MakeMyHome/Home/bed_vep0ai.webp",
+        "link": "/products/sofas"
+    },
+    {
+        "nameVi": "chăn, ga, gối",
+        "nameEn": "bedding",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855110/MakeMyHome/Home/bedding_c5dv8a.webp",
+        "link": "/products/bedding"
+    },
+    {
+        "nameVi": "đồ gia dụng",
+        "nameEn": "household goods",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855111/MakeMyHome/Home/household_nibzl1.webp",
+        "link": "/products/household-good"
+    },
+    {
+        "nameVi": "kệ, tủ",
+        "nameEn": "shelf units, cabinets",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855112/MakeMyHome/Home/shelf_gsuiij.webp",
+        "link": "/products/shelfunits-cabinets"
+    },
+    {
+        "nameVi": "ghế",
+        "nameEn": "chairs",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855111/MakeMyHome/Home/chair_phpdfj.webp",
+        "link": "/products/chairs"
+    },
+    {
+        "nameVi": "đèn",
+        "nameEn": "lamps",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855111/MakeMyHome/Home/lamps_wd2fwv.webp",
+        "link": "/products/lamps"
+    },
+    {
+        "nameVi": "gương",
+        "nameEn": "mirorrs",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855112/MakeMyHome/Home/mirrors_tgxio3.webp",
+        "link": "/products/mirorrs"
+    },
+    {
+        "nameVi": "sản phẩm dệt may",
+        "nameEn": "home textile",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855111/MakeMyHome/Home/hometextile_siwlqp.webp",
+        "link": "/products/home-textile"
+    },
+    {
+        "nameVi": "ấn phẩm",
+        "nameEn": "publications",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855110/MakeMyHome/Home/decorations_lyqaef.webp",
+        "link": "/products/publications"
+    },
+    {
+        "nameVi": "trang trí",
+        "nameEn": "descorations",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855110/MakeMyHome/Home/bedding_c5dv8a.webp",
+        "link": "/products/descorations"
+    },
+    {
+        "nameVi": "giường",
+        "nameEn": "beds",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855111/MakeMyHome/Home/beds_pqt23k.webp",
+        "link": "/products/beds"
+    },
+    {
+        "nameVi": "bộ sưu tập",
+        "nameEn": "collections",
+        "img": "https://res.cloudinary.com/dseuvenfm/image/upload/v1651855111/MakeMyHome/Home/collection_igwa8u.webp",
+        "link": "/products/collections"
+    }
+]
