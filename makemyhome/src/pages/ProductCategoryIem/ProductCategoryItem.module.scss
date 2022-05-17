@@ -1,0 +1,154 @@
+.menu {
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    .menuTop {
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+        font-weight: 300;
+        font-style: italic;
+
+        .navigateThis {
+            font-weight: 600;
+        }
+    }
+
+    .menuBottom {
+        font-size: 1.3rem;
+        font-weight: 500;
+        display: flex;
+        flex-wrap: wrap;
+
+        p {
+            width: 20.1%;
+            height: 24px;
+            padding-right: 15px;
+        }
+
+        .subItemChose {
+            opacity: 0.4;
+        }
+    }
+}
+
+.title {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+    h2 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+.products {
+    width: 1200px;
+    margin: auto;
+
+    .customSort {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+        margin-bottom: 40px;
+
+        .customSortLeft {
+            display: flex;
+
+            .customSortPrice,
+            .customSortColor,
+            .customSortType {
+                margin-right: 15px;
+                position: relative;
+            }
+
+            .customSortPrice:hover .customSortPrice2 {
+                display: block;
+            }
+            .customSortColor:hover .customSortColor2 {
+                display: block;
+            }
+            .customSortType:hover .customSortType2 {
+                display: block;
+            }
+
+            .customSortPrice1,
+            .customSortColor1,
+            .customSortType1 {
+                border: 1px solid #000;
+                display: flex;
+                align-items: center;
+                padding: 1px 15px;
+                cursor: pointer;
+
+                p {
+                    margin-right: 25px;
+                    font-size: 14px;
+                }
+            }
+            
+            .customSortPrice2,
+            .customSortColor2,
+            .customSortType2 {
+                padding-top: 5px;
+                position: absolute;
+                z-index: 20;
+                left: 0;
+                top: 100%;
+                display: none;
+                min-width: 200px;
+            }
+            
+            .customSortPrice3,
+            .customSortColor3,
+            .customSortType3 {
+                background-color: #fff;
+                line-height: 28px;
+                padding: 10px;
+                font-size: 14px;
+                border-radius: 5px;
+                box-shadow: 0 3px 6px rgb(168, 167, 167);
+                
+            }
+        }
+
+        .customSortRight{
+            font-size: 14px;
+
+            select{
+                margin-left: 15px;
+                min-width: 100px;
+                background-color: rgb(228, 228, 228);
+                border: 1px solid var(--text-color);
+                color: var(--text-color);
+                font-size: 15px;
+                padding: 2px 5px;
+                
+            }
+        }
+
+    }
+    
+    .productList {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .product {
+            width: 25%;
+        }
+    }
+    
+    .seeMore{
+        width: 100%;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 500;
+        margin: 30px auto 100px auto;
+        span{
+            cursor: pointer;
+        }
+    }
+}

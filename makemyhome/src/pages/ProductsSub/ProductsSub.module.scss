@@ -1,0 +1,55 @@
+.navigate {
+    width: 1200px;
+    margin: 30px auto 15px auto;
+    font-style: italic;
+    font-size: 12px;
+
+    .navigateThis {
+        font-weight: 500;
+    }
+}
+
+.category {
+    width: 1200px;
+    margin: auto;
+
+    .title {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .categorySub {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 200px;
+
+        .categoryItem {
+            width: 25%;
+            padding: 0 15px;
+            margin-bottom: 35px;
+            font-size: 13px;
+            font-weight:300;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .imgbackground {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.groupProduct {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}

@@ -6,7 +6,10 @@ import { productCategories, concepts } from '~/apis';
 
 const cx = classNames.bind(styles);
 
-function Header() {
+function Header({countCart}) {
+
+    
+
     const [checkHeader, setCheckHeader] = useState(false);
 
     const refHeader = useRef();
@@ -31,7 +34,6 @@ function Header() {
         refProductCategory.current.style.top = (refHeader.current.offsetHeight - 1) + 'px';
     })
 
-
     return (
         <header ref={refHeader} className={checkHeader ? cx('positionFixed') : undefined}>
             <div className={cx('header')}>
@@ -42,10 +44,10 @@ function Header() {
                         </Link>
                     </div>
                     <div className={cx('header-top-right')}>
-                        <Link to="/cart">
+                        <Link to="/carts">
                             <div className={cx('cart')}>
                                 <i className="fa-solid fa-cart-shopping cart-icon"></i>
-                                <span className={cx('cart-count')}>0</span>
+                                <span className={cx('cart-count')}>{countCart}</span>
                             </div>
                         </Link>
                         <Link to="/account">
@@ -77,6 +79,15 @@ function Header() {
                                                             {productCategory.nameVi.toUpperCase()} -{' '}
                                                             {productCategory.nameEn.toLowerCase()}
                                                         </Link>
+                                                        <ul className={cx('productCategorySub')}>
+                                                            {
+                                                                productCategory.sub.map((sub, index) => {
+                                                                    return (
+                                                                        <li key={index}><Link to={sub.link}>{sub.name.toUpperCase()}</Link></li>
+                                                                    )
+                                                                })
+                                                            }
+                                                        </ul>
                                                     </li>
                                                 );
                                             })}
@@ -124,5 +135,7 @@ function Header() {
         </header>
     );
 }
+
+
 
 export default Header;

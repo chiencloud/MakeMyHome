@@ -1,0 +1,157 @@
+.cart {
+    h2 {
+        width: 1100px;
+        margin: auto;
+        height: 200px;
+        line-height: 300px;
+    }
+
+    p {
+        width: 1150px;
+        margin: auto;
+
+        a {
+            padding-left: 5px;
+            color: rgb(26, 123, 250);
+            font-style: italic;
+            text-decoration: underline;
+        }
+    }
+}
+
+table {
+    width: 1200px;
+    margin: auto;
+    border-collapse: collapse;
+
+    .info,
+    a {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 120px;
+            margin-right: 20px;
+        }
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+
+        span {
+            user-select: none;
+            cursor: pointer;
+            line-height: 19px;
+        }
+
+        i {
+            cursor: pointer;
+        }
+    }
+
+    th {
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+}
+
+.bold {
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+
+.count {
+    display: inline-block;
+    min-width: 30px;
+    max-width: 30px;
+    overflow: hidden;
+}
+
+.outOfStock {
+    opacity: 0.4;
+}
+
+.outStock {
+    position: absolute;
+    background-color: #fff;
+    margin-left: 20px;
+    padding: 1px 10px;
+    font-size: 1.4rem;
+    color: red;
+    border: 1px solid red;
+}
+
+.note_total {
+    width: 1200px;
+    margin-top: 50px !important;
+    margin-bottom: 100px !important;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .note {
+        font-size: 1.3rem;
+        padding: 0 15px;
+        width: 50%;
+
+        textarea{
+            width: 100%;
+            height: 100px;
+            margin-top:10px;
+            padding: 8px 15px;
+        }
+    }
+
+    .total {
+        width: 50%;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        .title{
+            font-size: 2.4rem;
+            font-weight: 400;
+            color: #898989;
+
+            .priceTotal{
+                font-size: 3rem;
+                font-weight: 700;
+                color: var(--color-black);
+                margin-left: 8px;
+            }
+        }
+
+        p {
+            width: 100%;
+            text-align: right;
+            font-size:1.3rem;
+            color: #545454;
+        }
+
+        a{
+            font-size: 1.3rem;
+            font-weight:300;
+            color: #7b7b7b;
+        }
+
+        button{
+            margin-left: 15px;
+            padding:12px 25px;
+            font-size: 1.2rem;
+            letter-spacing: 5px;
+            color: var(--color-white);
+            background-color: var(--color-black);
+            cursor: pointer;
+            
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+
+        .totalMain{
+            margin-bottom: 30px;
+        }
+    }
+}

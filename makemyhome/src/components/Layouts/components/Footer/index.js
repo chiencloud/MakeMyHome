@@ -8,25 +8,6 @@ const cx = classNames.bind(styles);
 
 function Footer() {
     const ShareMoments = () => {
-        const PrevArrow = (props) => {
-            return (
-                <div className={cx('prevArrowShareMoment')}>
-                    <span onClick={props.onClick}>
-                        <i className="fa-solid fa-angle-left"></i>
-                    </span>
-                </div>
-            );
-        };
-        
-        const NextArrow = (props) => {
-            return (
-                <div className={cx('nextArrowShareMoment')}>
-                    <span onClick={props.onClick}>
-                        <i className="fa-solid fa-angle-right"></i>
-                    </span>
-                </div>
-            );
-        };
 
         const settingsUpdate = {
             dots: false,
@@ -34,8 +15,8 @@ function Footer() {
             speed: 1200,
             slidesToShow: 4,
             slidesToScroll: 4,
-            prevArrow: <PrevArrow />,
-            nextArrow: <NextArrow />,
+            // prevArrow: <PrevArrow />,
+            // nextArrow: <NextArrow />,
         };
 
         return (
@@ -92,7 +73,7 @@ function Footer() {
                                 {productCategories.map((productCategory, index) => {
                                     return (
                                         <li key={index}>
-                                            <Link to="#">
+                                            <Link to={productCategory.link}>
                                                 {productCategory.nameVi.toUpperCase()} -{' '}
                                                 {productCategory.nameEn.toLowerCase()}
                                             </Link>

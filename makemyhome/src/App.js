@@ -9,16 +9,20 @@ function App() {
                 <Routes>
                     {publicRoutes.map((route, index) => {
                         const Page = route.component;
+
+                        const props = route.props ? {...route.props} : undefined;
+                        
                         return (
                             <Route
                                 key={index}
                                 path={route.path}
                                 element={
                                     <DefaultLayout>
-                                        <Page />
+                                        <Page {...props}/>
                                     </DefaultLayout>
                                 }
-                            />
+                            >
+                            </Route>
                         );
                     })}
                 </Routes>

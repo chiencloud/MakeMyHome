@@ -1,4 +1,39 @@
 
+.top, .bottom{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+    span{
+        background-color: #fff;
+        height: 35px;
+        width: 35px;
+        border-radius: 18px;
+        text-align: center;
+        line-height: 35px;
+        opacity: 0.6;
+
+        i{
+            font-size: 1.7rem;
+        }
+    }
+    
+    :hover{
+        opacity: 1
+    }
+}
+
+.top{
+    top: -40px
+}
+
+.bottom{
+    bottom: -40px
+}
+
 .nextArrowMain, .prevArrowMain{
     position: absolute;
     top: 0;
@@ -19,7 +54,7 @@
         opacity: 0.6;
 
         i{
-            font-size: 17px;
+            font-size: 1.7rem;
         }
     }
     
@@ -34,4 +69,30 @@
 
 .prevArrowMain{
     left: 0px;
+}
+
+.prevArrowShareMoment, .nextArrowShareMoment{
+    top: 0;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    i{
+        font-weight: bold;
+        font-size: 2.2rem;
+        opacity: 0.5;
+    }
+
+    :hover{
+        opacity: 1;
+    }
+}
+
+.prevArrowShareMoment{
+    left: -25px;
+}
+
+.nextArrowShareMoment{
+    right: -25px;
 }

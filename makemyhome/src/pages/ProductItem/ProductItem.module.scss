@@ -1,0 +1,132 @@
+.product_detail {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.product_detail_left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    .product_SliderImg {
+        width: 100px;
+        max-height: 470px;
+        margin-left: 20px;
+
+        img {
+            width: 100%;
+            margin: 3px 0;
+        }
+
+        .borderImg {
+            border: 1px solid #000;
+        }
+    }
+
+    .product_ImgShow {
+        width: calc(100% - 120px);
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.bottomArrow,
+.topArrow {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomArrow {
+    bottom: -25px;
+}
+
+.topArrow {
+    top: -25px;
+}
+
+.product_detail_right {
+    padding-left: 70px;
+    width: 50%;
+    font-size: 1.3rem;
+
+    h2 {
+        font-size: 2.6rem;
+    }
+
+    .product_detail_productDescription {
+        line-height: 18px;
+    }
+
+    .product_detail_price {
+        margin-bottom: 20px;
+
+        span {
+            font-size: 2.1rem;
+            font-weight: 500;
+        }
+
+        del {
+            font-size: 1.6rem;
+        }
+    }
+
+    .product_detail_description {
+        p {
+            font-weight: 300;
+        }
+
+        strong {
+            font-weight: 500;
+        }
+    }
+
+    .product_detail_wareHoure {
+        display: flex;
+        align-items: flex-end;
+
+        p {
+            font-weight: 700 ;
+            margin-right: 20px;
+        }
+        span{
+            padding: 0 5px;
+            font-size: 1.6rem;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+
+    .cart{
+        position: absolute;
+        bottom: 10px;
+        padding: 7px 18px;
+        background-color: rgb(94, 94, 94);
+        color: #fff;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}
+
+.similarProduct{
+    width: 1230px;
+    margin: auto;
+
+    .similarTitle{
+        margin: 70px 0 35px 0;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+}

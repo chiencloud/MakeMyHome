@@ -15,13 +15,13 @@ function Home() {
             slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 4000,
+            autoplaySpeed: 3000,
             fade: true,
         };
 
         return (
             <div className={cx('slide')}>
-                <SliderMain settingsUpdate={settingsUpdate}>
+                <SliderMain settingsUpdate={settingsUpdate} arrowInside>
                     {bannerHomes.map((bannerHome, index) => {
                         return (
                             <div key={index}>
@@ -84,7 +84,7 @@ function Home() {
         };
 
         return (
-            <SliderMain settingsUpdate={settingsUpdate}>
+            <SliderMain settingsUpdate={settingsUpdate} arrowInside>
                 <div className={cx('productCategory')}>
                     <div className={cx('productCategory-1')}>
                         <div className={cx('productCategoryImg')}>
@@ -130,7 +130,7 @@ function Home() {
             dots: false,
             infinite: true,
             speed: 500,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 3000,
             slidesToShow: 2,
             slidesToScroll: 1,
